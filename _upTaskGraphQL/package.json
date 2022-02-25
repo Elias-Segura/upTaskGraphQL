@@ -1,0 +1,30 @@
+{
+  "name": "upTaskGraphQL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm .",
+    "dev": "nodemon -r esm ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "babel-core": "^7.0.0-bridge.0",
+    "nodemon": "^2.0.12"
+  }
+}
